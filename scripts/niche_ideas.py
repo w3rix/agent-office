@@ -1,4 +1,4 @@
-from llm import ask_json
+from agent_office.llm import ask_json
 
 SYSTEM_PROMPT = """You are a YouTube niche researcher.
 Return ONLY valid JSON, no markdown, no explanation.
